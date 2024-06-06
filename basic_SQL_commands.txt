@@ -1,0 +1,5 @@
+#displaying all columns and rows
+  select * from healthcare_dataset;
+
+#selecting few columns and all rows
+  select Name, Age, Doctor from healthcare_dataset;
