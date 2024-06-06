@@ -3,3 +3,16 @@
 
 #selecting few columns and all rows
   select Name, Age, Doctor from healthcare_dataset;
+
+#finding distinct value of a column
+  select DISTINCT Doctor from healthcare_dataset;
+
+#selecting 1 column name and sorting values in that column in ascending order (A-Z)
+  select MedicalCondition from healthcare_dataset order by MedicalCondition ASC;
+
+#selecting multiple column names and sorting values of 1 column in descending order (Z-A)
+  select MedicalCondition, Name from healthcare_dataset order by Name DESC;
+
+  
+  
+  
